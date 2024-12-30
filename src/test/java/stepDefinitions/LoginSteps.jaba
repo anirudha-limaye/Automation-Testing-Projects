@@ -35,8 +35,8 @@ public void the_user_should_be_logged_in_successfully()
   String expectedTitle = "My Account";
   String actualTitle = driver.getTitle();
   if(expetedTitle.equals(actualTitle)){
-    System.out.println("Account created successfully");}
+    System.out.println("Loggined in  successfully");}
   else{
-    System.out.println("Account creation failed");}
+    System.out.println("Login failed");}
   driver.quit();
 }
