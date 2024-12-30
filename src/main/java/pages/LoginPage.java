@@ -1,6 +1,6 @@
 package pages;
 import org.openqa.By;
-import org.openqa.WebDriver;
+import org.openqa.selenium.WebDriver;
 
 public class LoginPage
 {
